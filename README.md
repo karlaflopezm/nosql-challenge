@@ -26,19 +26,13 @@ This project is divided into three main parts:
 ## Installation
 Follow these steps to set up the project:
 
-### **1. Clone the Repository**
-```bash
-git clone https://github.com/your-username/uk-food-standards.git
-cd uk-food-standards
-```
-
-### **2. Install Dependencies**
+### **1. Install Dependencies**
 Ensure you have Python and MongoDB installed. Install the required Python libraries:
 ```bash
 pip install pymongo pandas notebook
 ```
 
-### **3. Import the Data into MongoDB**
+### **2. Import the Data into MongoDB**
 Run the following command in your terminal to import the data:
 ```bash
 mongoimport --db uk_food --collection establishments --drop --file establishments.json --jsonArray
