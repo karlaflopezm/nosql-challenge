@@ -108,7 +108,7 @@ To submit your project:
 2. Use the command line to add and commit files:
    ```bash
    git add .
-   git commit -m "Initial commit - UK Food Standards Analysis"
+   git commit -m "Initial commit - "update"
    git push origin main
    ```
 3. Include appropriate commit messages.
